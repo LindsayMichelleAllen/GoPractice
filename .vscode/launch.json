@@ -5,11 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "goroutine",
+            "name": "goroutine_buffered_channel",
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "goroutine.go"
+            "program": "./goroutines_and_channels/goroutine_buffered_channel.go"
+        },
+        {
+            "name": "goroutine_unbuffered_channel",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "./goroutines_and_channels/goroutine_unbuffered_channel.go"
         }
     ]
 }
